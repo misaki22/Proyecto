@@ -24,42 +24,53 @@
     <form action="action_page.php">
         <style>
             .container {
-            background: #555960;
+            background-color: rgba(245, 245, 245, 0.2);
                 /* background: linear-gradient(to right, #ffa751, #ffe259); */
                 text-align: center;
             }
         </style>
-            <div class="container w-75 bg-secondary mt-5 rounded shadow">
+            <div class="container w-50 bg-secondary mt-5 rounded shadow">
+                <br>
                 <h1>Registrarse</h1>
+                <br>
                 <p>Por favor completa el siguiente formulario para crear una cuenta con nosotros!</p>
                 <hr>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="fullName"><b>Nombre completo</b></label>
+                        <p><b>Nombre completo</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="fullName"></label>
                         <input type="text" placeholder="" name="fullName" id="fullName" required>
                     </div>
                 </div>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="email"><b>Correo electrónico</b></label>
-                        <input type="text" name="email" id="email" required>
+                        <p><b>Correo electrónico</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" required>
                     </div>
                 </div>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="cel"><b>Celular</b></label>
+                        <p><b>Celular</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="cel"></label>
                         <input type="text" placeholder="Ej: +57 3152324942" name="cel" id="cel" required>
                     </div>
                 </div>
 
-                <div class="row w-200 align-items-lg-stretch">
-                    <div class="col 4 p-1 rounded-end">
+                <div class="row align-items-lg-stretch">
+                    <div class="col 2 p-1 rounded-end">
                         <p><b>Género</b></p>
                     </div>
-                    <div class="col 10 p-1 rounded-end">
+                    <div class="col 14 p-1 rounded-end">
                         <label for="gen"></label>
                         <input type="text" name="gen" id="gen" required>
                     </div>
@@ -67,33 +78,48 @@
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="age"><b> Edad</b></label>
+                        <p><b>Edad</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="age"></label>
                         <input type="text" name="age" id="age" required>
                     </div>
                 </div>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="job"><b>Profesión u Ocupación</b></label>
+                        <p><b>Profesión u Ocupación</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="job"></label>
                         <input type="text" name="job" id="job" required>
                     </div>
                 </div>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="psw"><b>Contraseña</b></label>
+                        <p><b>Contraseña</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="psw"></label>
                         <input type="password" placeholder="" name="psw" id="psw" required>
                     </div>
                 </div>
 
                 <div class="row align-items-lg-stretch">
                     <div class="col p-1 rounded-end">
-                        <label for="psw-repeat"><b>Confirmar contraseña</b></label>
+                        <p><b>Profesión u Ocupación</b></p>
+                    </div>
+                    <div class="col p-1 rounded-end">
+                        <label for="psw-repeat"></label>
                         <input type="password" placeholder="" name="psw-repeat" id="psw-repeat" required>
                     </div>
                 </div>
+                <br>
     
-                <p>Al crear una cuenta con nosotros aceptas nuestros <a href="#">Términos y condiciones</a>.</p>
+                <h7>Al crear una cuenta con nosotros aceptas nuestros <a href="#">Términos y condiciones</a>.</h7>
+                <br>
+                <br>
                 <button type="submit" class="registerbtn">Registrarse</button>
 
                 <p>¿Ya estás registrado? <a href="#">Iniciar sesión</a>.</p>

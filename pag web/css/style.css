@@ -9,6 +9,12 @@
     margin-left: 50px;
 }
 
+.logotipo-preferences{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 30px ;
+}
+
 
 .iconos-redes-header{
     width: 20px;
@@ -103,5 +109,15 @@ footer li{
     line-height: 1.5;
     font-weight: 300;
     text-align-last: center;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boton{
+    width: 120px;
+    height: 45px;
 }
 

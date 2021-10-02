@@ -1,3 +1,5 @@
+/* Menu desplegable */
+
 .barra{
 	font-family:Arial, Helvetica, sans-serif;
 	width: 40px;
@@ -83,6 +85,7 @@
 	background-color: rgb(30, 20, 31,0.98);
 }
 
+/* Fin del menu */
 
 .logotipo{
     width: 150px;

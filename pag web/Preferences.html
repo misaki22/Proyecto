@@ -13,8 +13,18 @@
         <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background: #ffe259;
-            background: linear-gradient(to right, #ffa751, #ffe259);
+            /* background: #ffe259;
+            background: linear-gradient(to right, #ffa751, #ffe259); */
+            text-align: center;
+            background-image: url(/Proyecto/fondo_preferencias.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(102, 93, 93, 0.7);
+            /* background: linear-gradient(to right, #ffa751, #ffe259); */
+            width: 700px;
+            margin-bottom: 50px;
             text-align: center;
         }
     </style>
@@ -24,44 +34,50 @@
 
 </body>
     <form action="action_page.php">
-        <div class="container">
-            <img src="images/home/logo-f.png" class="logotipo-preferences" alt="">
+        <div class="container rounded shadow" style="color: rgb(202, 196, 196);">
+            <img src="images/home/logo-f.png" style="width: 50%;" class="logotipo-preferences" alt="">
             <p>Estamos interesados en conocer tus preferencias, ¡Ayudanos a conocerlas con el siguiente formulario!
             </p>
             <hr>
                 <label for="question1"><b>¿Te gustan los frutos secos?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question1" style="height:40px;width:900px" id="question1" required>
+                <input type="text" placeholder="" width="500" name="question1" style="height:40px;width: 680px" id="question1" required>
             <hr>
-                <label for="question2"><b>¿Cuáles son tus frutos secos favoritos y cada cuánto los consumes?</b></label>
+                <label for="question2"><b>¿Cuáles son tus frutos secos favoritos?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question2" style="height:40px;width:900px" id="question2" required>
+                <input type="text" placeholder="" width="500" name="question2" style="height:40px;width:680px" id="question2" required>
             <hr>
-                <label for="question3"><b>¿Has probado algún suplemento anteriormente?</b></label>
+                <label for="question3"><b>¿Con qué frecuencia los consumes?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question3" style="height:40px;width:900px" id="question3" required>
+                <input type="text" placeholder="" width="500" name="question3" style="height:40px;width:680px" id="question3" required>
             <hr>
-                <label for="question4"><b>¿Hay algún alimento o bebida que consumas en exceso?</b></label>
+                <label for="question4"><b>¿Has probado algún suplemento anteriormente?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question4" style="height:40px;width:900px" id="question4" required>
+                <input type="text" placeholder="" width="500" name="question4" style="height:40px;width:680px" id="question4" required>
             <hr>
-                <label for="question5"><b>¿Qué tipos de meriendas son de tu agrado?</b></label>
+                <label for="question5"><b>¿Hay algún alimento o bebida que de manera seguida/diaria?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question5" style="height:40px;width:900px" id="question5" required>
+                <input type="text" placeholder="" width="500" name="question5" style="height:40px;width:680px" id="question5" required>
             <hr>
-                <label for="question6"><b>¿Te gustaría explorar y aprender acerca de dietas balanceadas y personalizadas?</b></label>
+                <label for="question6"><b>¿Qué tipos de meriendas son de tu agrado?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question6" style="height:40px;width:900px" id="question6" required>
+                <input type="text" placeholder="" width="500" name="question6" style="height:40px;width:680px" id="question6" required>
+            <hr>
+                <label for="question7"><b>¿Te gustaría explorar y aprender acerca de dietas balanceadas y personalizadas?</b></label>
+                <hr>
+                <input type="text" placeholder="" width="500" name="question7" style="height:40px;width:680px" id="question7" required>
             <hr>
 </form>
 
 <Main>
-    <section>
-        <ul>
+    <div class="row" style="padding: 10px;">
+        <button type="submit" class="col btn btn-outline-light rounded-end">Volver</button>
+        <button type="submit" class="col btn btn-outline-warning rounded-end">Guardar</button>
+        <!-- <ul>
             <a href="productos.html" ><img class="boton" src="images/home/boton1.png" alt=""></a></li>
-            <a href=""><img class="boton" src="images/home/boton2.png" alt=""></a></li>
-            </ul>
-    </section>
+            <a href="#"><img class="boton" src="images/home/boton2.png" alt=""></a></li>
+        </ul> -->
+    </div>
 </Main>
 
 

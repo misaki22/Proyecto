@@ -14,8 +14,16 @@
 
    <style>
         body {
-            background: #ffe259;
-            background: linear-gradient(to right, #ffa751, #ffe259);
+            /* background: #ffe259;
+            background: linear-gradient(to right, #ffa751, #ffe259); */
+            background-image: url(/Proyecto/home2.jpg);
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(102, 93, 93, 0.7);
+            /* background: linear-gradient(to right, #ffa751, #ffe259); */
+            width: 700px;
+            margin-bottom: 50px;
             text-align: center;
         }
     </style>
@@ -23,39 +31,45 @@
 
 <body>
     <form action="action_page.php">
-        <div class="container">
+        <div class="container" style="color: rgb(202, 196, 196);">
             <img src="images/home/logo-f.png" class="logotipo-preferences" alt="">
             <p>Queremos conocerte un poco más y para ello nos gustaría que nos ayudes a conocer tus objetivos con nuestro servicio.</p>
             <hr>
                 <label for="question1"><b>¿Qué te gustaría lograr con nuestro servicio?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question1" style="height:40px;width:900px" id="question1" required>
+                <input type="text" placeholder="" width="500" name="question1" style="height:40px;width:680px" id="question1" required>
             <hr>
                 <label for="question2"><b>¿En cuánto tiempo te gustaría lograr los resultados buscados?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question2" style="height:40px;width:900px" id="question2" required>
+                <input type="text" placeholder="" width="500" name="question2" style="height:40px;width:680px" id="question2" required>
             <hr>
                 <label for="question3"><b>¿Has tenido una experiencia previa y similar a Healthy Food?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question3" style="height:40px;width:900px" id="question3" required>
+                <input type="text" placeholder="" width="500" name="question3" style="height:40px;width:680px" id="question3" required>
             <hr>
                 <label for="question4"><b>¿Cuál es tu mayor reto a la hora de encaminarte hacia tus objetivos con HF?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question4" style="height:40px;width:900px" id="question4" required>
+                <input type="text" placeholder="" width="500" name="question4" style="height:40px;width:680px" id="question4" required>
             <hr>
-                <label for="question5"><b>¿Cómo supiste acerca de nosotros y por qué decidiste emprender este nuevo reto?</b></label>
+                <label for="question5"><b>¿Cómo supiste acerca de nosotros?</b></label>
                 <hr>
-                <input type="text" placeholder="" width="500" name="question5" style="height:40px;width:900px" id="question5" required>
+                <input type="text" placeholder="" width="500" name="question5" style="height:40px;width:680px" id="question5" required>
+            <hr>
+                <label for="question6"><b>¿Porqué decidiste emprender este reto?</b></label>
+                <hr>
+                <input type="text" placeholder="" width="500" name="question6" style="height:40px;width:680px" id="question6" required>
     </form>
 </body>
 
 <Main>
-    <section>
-        <ul>
+    <div class="row" style="padding: 10px;">
+        <button type="submit" class="col btn btn-outline-light rounded-end">Volver</button>
+        <button type="submit" class="col btn btn-outline-warning rounded-end">Guardar</button>
+        <!-- <ul>
             <a href="productos.html" ><img class="boton" src="images/home/boton1.png" alt=""></a></li>
-            <a href=""><img class="boton" src="images/home/boton2.png" alt=""></a></li>
-            </ul>
-    </section>
+            <a href="#"><img class="boton" src="images/home/boton2.png" alt=""></a></li>
+        </ul> -->
+    </div>
 </Main>
 
 </html>

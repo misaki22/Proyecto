@@ -21,6 +21,10 @@
             background-position: center center;
         }
     </style>
+
+    <!-- Validación JavaScript -->
+    <script defer src="/Proyecto/pag web/Login/Resources/JavaScript/ValidacionLogIn.js"></script>
+    
 </head>
 
 <body>
@@ -38,15 +42,16 @@
                 <h2 class="fw-bold text-center py-5">¡Bienvenido!</h2>
 
                 <!-- LOGIN -->
-                <form action="/Proyecto/pag web/productos.html">
+                <div id="error_login"></div>
+                <form action="/Proyecto/pag web/productos.html" method="GET" id="form">
                     <div class="mb-4">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" placeholder=" correo@exaple.com" class="form-control" name="email">
+                        <input type="email" placeholder=" correo@exaple.com" class="form-control" name="email" id="correo" required>
                     </div>
 
                     <div class="mb-4">
                         <label for="password" class="form-label">Contraseña</label>
-                        <input type="password" placeholder=" ************" class="form-control" name="password">
+                        <input type="password" placeholder=" ************" class="form-control" name="password" id="pass" required>
                     </div>
 
                     <div class="mb-4 form-check">

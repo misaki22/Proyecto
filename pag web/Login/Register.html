@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <form action="action_page.php" method="GET">
+    <form action="/Proyecto/pag web/productos.html" method="GET">
         <style>
             .container {
                 background-color: rgba(102, 93, 93, 0.7);
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col p-1 rounded-end">
                         <label for="cel"></label>
-                        <input type="text" placeholder="+57 3152324942" name="cel" id="cel" required>
+                        <input type="text" required minlength="10" maxlength="15" placeholder="+57 3152324942" name="cel" id="cel" required>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
                     </div>
                     <div class="col p-1 rounded-end">
                         <label for="age"></label>
-                        <input type="text" placeholder=" 20" name="age" id="age" required>
+                        <input type="number" required min="18" required max="100"  placeholder="18" name="age" id="age" required>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@
                     </div>
                     <div class="col p-1 rounded-end">
                         <label for="psw"></label>
-                        <input type="password" placeholder=" ************" name="psw" id="psw" required>
+                        <input type="password" required minlength="4" maxlength="20" placeholder=" ************" name="psw" id="psw" required>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@
                     </div>
                     <div class="col p-1 rounded-end">
                         <label for="psw-repeat"></label>
-                        <input type="password" placeholder=" ************" name="psw-repeat" id="psw-repeat" required>
+                        <input type="password" required minlength="4" maxlength="20" data-match="#psw" placeholder=" ************" name="psw-repeat" id="psw-repeat" required>
                     </div>
                 </div>
                 <br>

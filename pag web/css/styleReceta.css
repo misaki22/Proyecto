@@ -1,0 +1,199 @@
+/* Menu desplegable */
+
+.barra{
+	font-family:Arial, Helvetica, sans-serif;
+	width: 40px;
+	height: 50px;
+	margin-top: -30px;
+	margin-right: 20px;
+	position: fixed;
+	transition: .4s all;
+	z-index: 1;
+}
+
+.iconos{
+    width: 20px;
+    margin: 10px 5px;
+}
+
+.barra ul{
+	padding: 0px;
+	text-align: center;
+}
+
+.barra li{
+	transition: .3s all;
+}
+
+.barra a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+
+.barra h2{
+	text-align: center;
+	color: white;
+	padding: 7px;
+	padding-bottom: 7px;
+	font-size: 0px;
+}
+
+.barra img{
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+.barra:hover{
+	width: 300px;
+	height: 650px;
+	background-color:rgb(30, 27, 31);
+}
+
+.barra:hover h2{
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 35px;
+}
+
+.barra:hover a{
+	font-size: 20px;
+	color: white;
+	display:block;
+	padding: 10px;
+}
+
+.barra:hover img{
+	height: 0px;
+}
+
+.barra:hover li{
+	border-top: black;
+	width: 90%;
+	text-align: center;
+}
+
+.barra:hover ul:last-of-type{
+	border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover{
+	font-size: 25px;
+	padding: 30px 0px;
+	background-color: rgb(30, 20, 31,0.98);
+}
+
+/* Fin del menu */
+
+.logotipo{
+    width: 150px;
+    padding: 10px 0;
+}
+
+.logotipo-he{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.container_receta{
+    margin-left: 70px;
+    background-color:blanchedalmond;
+    width: 1200px;
+    height: 1000px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .tarjeta{
+    width: 270px;
+    height: 520px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition:all 0.25s;
+}
+
+.container .tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: rgb(30, 27, 31);
+
+}
+
+.container .tarjeta img{
+    width: 270px;
+    height: 330px;
+}
+
+.container .tarjeta h4{
+    font-weight: 600px;
+}
+
+.container .tarjeta p{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.iconos-redes-header{
+    width: 20px;
+    margin: 10px 5px;
+}
+
+/* footer */
+
+footer{
+    background-color:rgb(30, 27, 31);
+    padding: 5px 0;
+    text-align: center;
+    
+}
+
+footer .logotipo-footer{
+    width: 200px;
+}
+
+footer p{
+    color:white;
+}
+
+
+.iconos-redes-footer{
+    text-align: center;
+    width: 20px;
+    margin-right: 20px;
+    color:white;
+}
+
+footer li{
+    display: inline-block;
+}
+
+.pri{
+    text-align: center;
+    color: darkgray;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align-last: center;
+}
